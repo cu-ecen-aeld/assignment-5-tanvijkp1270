@@ -13,7 +13,6 @@ AESD_ASSIGNMENTS_VERSION = 'a61d50528824f007a85f73e2ef6e6cd9a1ecf373'
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-tanvijkp1270.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
-AESD_ASSIGNMENTS_OVERRIDE_SRCDIR='/home/tanvi/Documents/Repositories/assignment-1-tanvijkp1270'
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) CC=$(TARGET_CC) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
