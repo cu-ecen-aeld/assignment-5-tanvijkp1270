@@ -6,14 +6,14 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '3d73e092372e9eff4341e606e23983ab86cb651a'
+AESD_ASSIGNMENTS_VERSION = '6bf59768acbcaeee79ed943e8c20805997d3659f'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-tanvijkp1270.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
-AESD_ASSIGNMENTS_OVERRIDE_SRCDIR='/home/tanvi/Documents/Repositories/assignment-1-tanvijkp1270'
+#AESD_ASSIGNMENTS_OVERRIDE_SRCDIR='/home/tanvi/Documents/Repositories/assignment-1-tanvijkp1270'
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) CC=$(TARGET_CC) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server all
